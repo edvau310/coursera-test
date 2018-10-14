@@ -1,0 +1,95 @@
+
+body {
+
+    background-color:#330404;
+    
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align:center;
+    font-family:"Comic Sans MS";
+    font-size:14pt; 
+
+
+
+}
+#header
+{
+max-width:auto;
+height:140px;
+text-align:center;
+background-repeat:no-repeat;
+background-position:center, top left;
+background-image:url('EVSlogo.png'), url(ed.png);
+    
+    
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: yellow;
+
+
+}
+
+#header
+{
+max-width:300;
+height:150px;
+background-image:url(ed.png);
+  }
+
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+}
+
+#header
+{
+max-width:300px;
+height:100px;
+background-image:url(ed.png);
+  }
+}
+
+h1 {
+    color: blue;
+}
+p {
+    color: Blue;
+} 
+
+
+
+
+#nav
+{
+width auto;
+height:auto;
+text-align:center;
+}
+#nav ul li
+{
+display:inline;
+text-decoration:none;
+padding-right:100px;
+
+#main
+{
+width:auto; -sets the width to adjust to screen size
+height:auto;
+text-align:center; -makes the text in the main area centered)
+margin-left:auto; - adjust the margin to the left
+margin-right:auto;-adjust the margin to the right
+
+}
+
+#footer
+{
+width:auto;
+height:auto;
+text-align:center;
+background-color:#B7E149;
+
+}
